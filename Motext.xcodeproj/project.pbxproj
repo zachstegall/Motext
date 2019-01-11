@@ -11,6 +11,13 @@
 		CD62845621E88F7A00A674F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD62845521E88F7A00A674F2 /* Assets.xcassets */; };
 		CD62845921E88F7A00A674F2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD62845721E88F7A00A674F2 /* MainMenu.xib */; };
 		CD62846521E88F7A00A674F2 /* MotextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD62846421E88F7A00A674F2 /* MotextTests.swift */; };
+		CD62847621E88F8800A674F2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD62847521E88F8800A674F2 /* Cocoa.framework */; };
+		CD62848021E88F8800A674F2 /* Juno.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CD62847321E88F8800A674F2 /* Juno.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CD62848821E893F500A674F2 /* JunoExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD62848721E893F500A674F2 /* JunoExtension.swift */; };
+		CD62848A21E8955600A674F2 /* SliceCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD62848921E8955600A674F2 /* SliceCommand.swift */; };
+		CD62848C21E8955E00A674F2 /* DiceCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD62848B21E8955E00A674F2 /* DiceCommand.swift */; };
+		CD62848E21E8B28900A674F2 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD62848D21E8B28900A674F2 /* String.swift */; };
+		CD62849021E8B36900A674F2 /* JunoHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD62848F21E8B36900A674F2 /* JunoHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,7 +28,28 @@
 			remoteGlobalIDString = CD62844F21E88F7A00A674F2;
 			remoteInfo = Motext;
 		};
+		CD62847E21E88F8800A674F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD62844821E88F7A00A674F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD62847221E88F8800A674F2;
+			remoteInfo = Juno;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CD62848421E88F8800A674F2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CD62848021E88F8800A674F2 /* Juno.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		CD62845021E88F7A00A674F2 /* Motext.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Motext.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,6 +61,15 @@
 		CD62846021E88F7A00A674F2 /* MotextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD62846421E88F7A00A674F2 /* MotextTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotextTests.swift; sourceTree = "<group>"; };
 		CD62846621E88F7A00A674F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD62847321E88F8800A674F2 /* Juno.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Juno.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD62847521E88F8800A674F2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CD62847C21E88F8800A674F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD62847D21E88F8800A674F2 /* Juno.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Juno.entitlements; sourceTree = "<group>"; };
+		CD62848721E893F500A674F2 /* JunoExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JunoExtension.swift; sourceTree = "<group>"; };
+		CD62848921E8955600A674F2 /* SliceCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliceCommand.swift; sourceTree = "<group>"; };
+		CD62848B21E8955E00A674F2 /* DiceCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceCommand.swift; sourceTree = "<group>"; };
+		CD62848D21E8B28900A674F2 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		CD62848F21E8B36900A674F2 /* JunoHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JunoHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +87,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CD62847021E88F8800A674F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD62847621E88F8800A674F2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -58,6 +103,8 @@
 			children = (
 				CD62845221E88F7A00A674F2 /* Motext */,
 				CD62846321E88F7A00A674F2 /* MotextTests */,
+				CD62847721E88F8800A674F2 /* Juno */,
+				CD62847421E88F8800A674F2 /* Frameworks */,
 				CD62845121E88F7A00A674F2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,6 +114,7 @@
 			children = (
 				CD62845021E88F7A00A674F2 /* Motext.app */,
 				CD62846021E88F7A00A674F2 /* MotextTests.xctest */,
+				CD62847321E88F8800A674F2 /* Juno.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -92,6 +140,28 @@
 			path = MotextTests;
 			sourceTree = "<group>";
 		};
+		CD62847421E88F8800A674F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD62847521E88F8800A674F2 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD62847721E88F8800A674F2 /* Juno */ = {
+			isa = PBXGroup;
+			children = (
+				CD62848921E8955600A674F2 /* SliceCommand.swift */,
+				CD62848B21E8955E00A674F2 /* DiceCommand.swift */,
+				CD62848D21E8B28900A674F2 /* String.swift */,
+				CD62848F21E8B36900A674F2 /* JunoHelpers.swift */,
+				CD62848721E893F500A674F2 /* JunoExtension.swift */,
+				CD62847C21E88F8800A674F2 /* Info.plist */,
+				CD62847D21E88F8800A674F2 /* Juno.entitlements */,
+			);
+			path = Juno;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -102,10 +172,12 @@
 				CD62844C21E88F7A00A674F2 /* Sources */,
 				CD62844D21E88F7A00A674F2 /* Frameworks */,
 				CD62844E21E88F7A00A674F2 /* Resources */,
+				CD62848421E88F8800A674F2 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CD62847F21E88F8800A674F2 /* PBXTargetDependency */,
 			);
 			name = Motext;
 			productName = Motext;
@@ -130,6 +202,23 @@
 			productReference = CD62846021E88F7A00A674F2 /* MotextTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		CD62847221E88F8800A674F2 /* Juno */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD62848121E88F8800A674F2 /* Build configuration list for PBXNativeTarget "Juno" */;
+			buildPhases = (
+				CD62846F21E88F8800A674F2 /* Sources */,
+				CD62847021E88F8800A674F2 /* Frameworks */,
+				CD62847121E88F8800A674F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Juno;
+			productName = Juno;
+			productReference = CD62847321E88F8800A674F2 /* Juno.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -146,6 +235,9 @@
 					CD62845F21E88F7A00A674F2 = {
 						CreatedOnToolsVersion = 10.1;
 						TestTargetID = CD62844F21E88F7A00A674F2;
+					};
+					CD62847221E88F8800A674F2 = {
+						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
@@ -164,6 +256,7 @@
 			targets = (
 				CD62844F21E88F7A00A674F2 /* Motext */,
 				CD62845F21E88F7A00A674F2 /* MotextTests */,
+				CD62847221E88F8800A674F2 /* Juno */,
 			);
 		};
 /* End PBXProject section */
@@ -179,6 +272,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		CD62845E21E88F7A00A674F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD62847121E88F8800A674F2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -204,6 +304,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CD62846F21E88F8800A674F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD62848C21E8955E00A674F2 /* DiceCommand.swift in Sources */,
+				CD62848A21E8955600A674F2 /* SliceCommand.swift in Sources */,
+				CD62849021E8B36900A674F2 /* JunoHelpers.swift in Sources */,
+				CD62848E21E8B28900A674F2 /* String.swift in Sources */,
+				CD62848821E893F500A674F2 /* JunoExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -211,6 +323,11 @@
 			isa = PBXTargetDependency;
 			target = CD62844F21E88F7A00A674F2 /* Motext */;
 			targetProxy = CD62846121E88F7A00A674F2 /* PBXContainerItemProxy */;
+		};
+		CD62847F21E88F8800A674F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD62847221E88F8800A674F2 /* Juno */;
+			targetProxy = CD62847E21E88F8800A674F2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -344,6 +461,7 @@
 		CD62846A21E88F7A00A674F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Motext/Motext.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -363,6 +481,7 @@
 		CD62846B21E88F7A00A674F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Motext/Motext.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -421,6 +540,48 @@
 			};
 			name = Release;
 		};
+		CD62848221E88F8800A674F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Juno/Juno.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = L2NW3G6MD6;
+				INFOPLIST_FILE = Juno/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zacharystegall.Motext.Juno;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		CD62848321E88F8800A674F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Juno/Juno.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = L2NW3G6MD6;
+				INFOPLIST_FILE = Juno/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zacharystegall.Motext.Juno;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -447,6 +608,15 @@
 			buildConfigurations = (
 				CD62846D21E88F7A00A674F2 /* Debug */,
 				CD62846E21E88F7A00A674F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD62848121E88F8800A674F2 /* Build configuration list for PBXNativeTarget "Juno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD62848221E88F8800A674F2 /* Debug */,
+				CD62848321E88F8800A674F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
