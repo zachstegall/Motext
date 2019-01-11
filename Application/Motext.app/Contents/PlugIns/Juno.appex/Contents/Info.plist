@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>18C54</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Juno</string>
+	<key>CFBundleExecutable</key>
+	<string>Juno</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.zacharystegall.Motext.Juno</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Juno</string>
+	<key>CFBundlePackageType</key>
+	<string>XPC!</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>10B61</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>18B71</string>
+	<key>DTSDKName</key>
+	<string>macosx10.14</string>
+	<key>DTXcode</key>
+	<string>1010</string>
+	<key>DTXcodeBuild</key>
+	<string>10B61</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.11</string>
+	<key>NSExtension</key>
+	<dict>
+		<key>NSExtensionAttributes</key>
+		<dict>
+			<key>XCSourceEditorCommandDefinitions</key>
+			<array>
+				<dict>
+					<key>XCSourceEditorCommandClassName</key>
+					<string>Juno.SliceCommand</string>
+					<key>XCSourceEditorCommandIdentifier</key>
+					<string>com.zacharystegall.Motext.Juno.Slice</string>
+					<key>XCSourceEditorCommandName</key>
+					<string>Slice</string>
+				</dict>
+				<dict>
+					<key>XCSourceEditorCommandClassName</key>
+					<string>Juno.DiceCommand</string>
+					<key>XCSourceEditorCommandIdentifier</key>
+					<string>com.zacharystegall.Motext.Juno.Dice</string>
+					<key>XCSourceEditorCommandName</key>
+					<string>Dice</string>
+				</dict>
+				<dict>
+					<key>XCSourceEditorCommandClassName</key>
+					<string>Juno.DiceCommand</string>
+					<key>XCSourceEditorCommandIdentifier</key>
+					<string>com.zacharystegall.Motext.Juno.DiceTango</string>
+					<key>XCSourceEditorCommandName</key>
+					<string>Dice Tango</string>
+				</dict>
+			</array>
+			<key>XCSourceEditorExtensionPrincipalClass</key>
+			<string>Juno.JunoExtension</string>
+		</dict>
+		<key>NSExtensionPointIdentifier</key>
+		<string>com.apple.dt.Xcode.extension.source-editor</string>
+	</dict>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2019 Zachary Stegall. All rights reserved.</string>
+</dict>
+</plist>
