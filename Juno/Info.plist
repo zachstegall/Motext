@@ -30,7 +30,7 @@
 			<array>
 				<dict>
 					<key>XCSourceEditorCommandClassName</key>
-					<string>$(PRODUCT_MODULE_NAME).SliceCommand</string>
+					<string>$(PRODUCT_MODULE_NAME).JunoCommand</string>
 					<key>XCSourceEditorCommandIdentifier</key>
 					<string>$(PRODUCT_BUNDLE_IDENTIFIER).Slice</string>
 					<key>XCSourceEditorCommandName</key>
@@ -38,7 +38,7 @@
 				</dict>
 				<dict>
 					<key>XCSourceEditorCommandClassName</key>
-					<string>$(PRODUCT_MODULE_NAME).DiceCommand</string>
+					<string>$(PRODUCT_MODULE_NAME).JunoCommand</string>
 					<key>XCSourceEditorCommandIdentifier</key>
 					<string>$(PRODUCT_BUNDLE_IDENTIFIER).Dice</string>
 					<key>XCSourceEditorCommandName</key>
@@ -46,7 +46,7 @@
 				</dict>
 				<dict>
 					<key>XCSourceEditorCommandClassName</key>
-					<string>$(PRODUCT_MODULE_NAME).DiceCommand</string>
+					<string>$(PRODUCT_MODULE_NAME).JunoCommand</string>
 					<key>XCSourceEditorCommandIdentifier</key>
 					<string>$(PRODUCT_BUNDLE_IDENTIFIER).DiceTango</string>
 					<key>XCSourceEditorCommandName</key>
